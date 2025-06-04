@@ -1,0 +1,8 @@
+{
+    "name": "killian/zoo",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
