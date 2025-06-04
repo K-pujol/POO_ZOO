@@ -1,10 +1,9 @@
 <?php
 
-namespace App;
-
+namespace App\Animals;
 use App\Animal;
 
-class Fish extends Animal
+class ClownFish extends Animal
 {
     protected function getNoise(): string
     {

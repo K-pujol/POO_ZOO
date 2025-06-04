@@ -1,13 +1,12 @@
 <?php
 
-namespace App;
-
+namespace App\Animals;
 use App\Animal;
 
-class Elephant extends Animal
+class Duck extends Animal
 {
     protected function getNoise(): string
     {
-        return 'tooooooout. ';
+        return 'coin coin. ';
     }
 }

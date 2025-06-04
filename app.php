@@ -1,14 +1,15 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-use App\Fish;
-use App\BubbleFish;
-use App\CatFish;
-use App\ClownFish;
-use App\Elephant;
-use App\Zebra;
-use App\Parrot;
-use App\Dove;
+
+use App\Animals\Fish;
+use App\Animals\BubbleFish;
+use App\Animals\CatFish;
+use App\Animals\ClownFish;
+use App\Animals\Elephant;
+use App\Animals\Zebra;
+use App\Animals\Parrot;
+use App\Animals\Dove;
 
 
 $animals = [];

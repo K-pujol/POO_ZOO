@@ -1,13 +1,12 @@
 <?php
 
-namespace App;
-
+namespace App\Animals;
 use App\Animal;
 
-class Zebra extends Animal
+class Parrot extends Animal
 {
     protected function getNoise(): string
     {
-        return 'hiiiiii. ';
+        return 'coco. ';
     }
 }
