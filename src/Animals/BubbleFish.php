@@ -1,9 +1,11 @@
 <?php
 
 namespace App\Animals;
-use App\Animal;
 
-class BubbleFish extends Animal
+use App\Animal;
+use App\Interfaces\CanSwim;
+
+class BubbleFish extends Animal implements CanSwim
 {
     protected function getNoise(): string
     {

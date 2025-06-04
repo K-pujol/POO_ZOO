@@ -10,6 +10,8 @@ use App\Animals\Elephant;
 use App\Animals\Zebra;
 use App\Animals\Parrot;
 use App\Animals\Dove;
+use App\Enclosure;
+use App\Zoo;
 
 
 $animals = [];
@@ -50,8 +52,10 @@ for ($i = 1; $i <= 2; $i++) {
     $animals[] = new Dove('Colombe ' . $i);
 }
 
-
-
 foreach ($animals as $animal) {
-    echo $animal->noise();
+    Zoo::addAnimal($animal);
 }
+
+   echo Zoo::visitTheZoo();
+
+
