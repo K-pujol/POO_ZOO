@@ -10,7 +10,6 @@ use App\Animals\Elephant;
 use App\Animals\Zebra;
 use App\Animals\Parrot;
 use App\Animals\Dove;
-use App\Enclosure;
 use App\Zoo;
 
 
